@@ -18,9 +18,6 @@ Steps to follow:
 
 7. Run the Terraform script to provision the SIEM infrastructure on the cloud provider.
 
-  i. "terraform init"
-  ii. "terraform apply"
-
 8. Once the infrastructure is provisioned, you can use Kibana to access the Elasticsearch cluster and start creating visualizations and dashboards to correlate the logs from your web application.
 
 9. You can also set up alerts in Kibana to notify you when certain conditions are met, or use CloudWatch events to trigger Lambda functions for alerting.
